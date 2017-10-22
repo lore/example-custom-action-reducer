@@ -122,6 +122,12 @@ export default {
     //   blueprint: 'singleton'
     // },
 
+    'location': {
+      action: 'location.get',
+      reducer: 'location',
+      blueprint: 'singleton'
+    },
+
     /**
      * If the built-in blueprints don't work for you, you can use a custom
      * blueprint by providing an object as the value of the blueprint. The
