@@ -6,6 +6,7 @@
 
 import React, { Component } from 'react';
 import logo from '../../assets/images/logo.png';
+import Location from './Location';
 
 class Layout extends Component {
 
@@ -17,30 +18,17 @@ class Layout extends Component {
             <div className="title">
               <img className="logo" src={logo} />
               <h1>
-                Welcome to Lore!
+                Example: Custom Action & Reducer
               </h1>
               <h3>
-                You're looking at <code>src/components/Layout.js</code>
+                Demonstrates how to mix a custom action and reducer into those provided by conventions.
               </h3>
             </div>
           </div>
         </div>
         <div className="main">
           <div className="container">
-            <ul>
-              <li>
-                <div>
-                  <h3>Getting Started</h3>
-                  <p>Edit this file and the page will automatically reload to display changes.</p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3>New to Lore?</h3>
-                  <p>Learn how to use it by following the <a target="_blank" href="http://www.lorejs.org/quickstart/">quickstart</a>.</p>
-                </div>
-              </li>
-            </ul>
+            <Location />
           </div>
         </div>
       </div>
