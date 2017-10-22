@@ -9,7 +9,7 @@ export default {
      * operations and being able to retrieve the primary key by 'model.id'
      */
 
-    // idAttribute: 'id'
+    idAttribute: 'ip',
 
     /**
      * Override the initialize method if you need to save data for use
@@ -45,9 +45,7 @@ export default {
      * the route doesn't use the primary key of the resource.
      */
 
-    // url() {
-    //   return 'https://api.example.com/unconventional/endpoint/123'
-    // },
+    url: 'https://freegeoip.net/json/',
 
     /**
      * Override the parse method if you need to modify data before using
